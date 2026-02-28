@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.paeznet" name="PaezNet Repo" version="1.0.0" provider-name="paeznet">
+        <extension point="xbmc.addon.repository" name="PaezNet Repo">
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com</info>
+                <checksum>https://raw.githubusercontent.com.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Mi repositorio personal de Kodi</summary>
+            <description>Repositorio alojado en GitHub para mis addons personalizados.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+</addons>
